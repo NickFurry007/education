@@ -1,4 +1,5 @@
 import React from "react";
+import * as Unicons from "@iconscout/react-unicons";
 
 const Categories = () => {
   return (
@@ -20,7 +21,8 @@ const Categories = () => {
         <div className="categories__right">
           <article className="category">
             <span className="category__icon">
-              <i className="uil uil-bitcoin-circle"></i>
+              
+              <Unicons.UilBitcoinCircle />
             </span>
             <h5>Blockchain</h5>
             <p>Lorem ipsum dolor sit amet consectetur, elit temporibus, qui.</p>
@@ -28,7 +30,8 @@ const Categories = () => {
 
           <article className="category">
             <span className="category__icon">
-              <i className="uil uil-palette"></i>
+              
+              <Unicons.UilPalette />
             </span>
             <h5>Graphic Design</h5>
             <p>Lorem ipsum dolor sit amet consectetur, elit temporibus, qui.</p>
@@ -36,7 +39,9 @@ const Categories = () => {
 
           <article className="category">
             <span className="category__icon">
-              <i className="uil uil-usd-circle"></i>
+              
+              <Unicons.UilUsdCircle />
+
             </span>
             <h5>Finance</h5>
             <p>Lorem ipsum dolor sit amet consectetur, elit temporibus, qui.</p>
@@ -44,7 +49,8 @@ const Categories = () => {
 
           <article className="category">
             <span className="category__icon">
-              <i className="uil uil-megaphone"></i>
+             
+              <Unicons.UilMegaphone />
             </span>
             <h5>Marketing</h5>
             <p>Lorem ipsum dolor sit amet consectetur, elit temporibus, qui.</p>
@@ -52,7 +58,8 @@ const Categories = () => {
 
           <article className="category">
             <span className="category__icon">
-              <i className="uil uil-music"></i>
+             
+              <Unicons.UilMusic />
             </span>
             <h5>Music</h5>
             <p>Lorem ipsum dolor sit amet consectetur, elit temporibus, qui.</p>
@@ -60,7 +67,7 @@ const Categories = () => {
 
           <article className="category">
             <span className="category__icon">
-              <i className="uil uil-puzzle-piece"></i>
+              <Unicons.UilPuzzlePiece />
             </span>
             <h5>Business</h5>
             <p>Lorem ipsum dolor sit amet consectetur, elit temporibus, qui.</p>
