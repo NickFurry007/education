@@ -1,10 +1,25 @@
 // Navbar.js
 
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 const Navbar = () => {
+  // Declare isScrolled state variable
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 0);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    // Cleanup the event listener on component unmount
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
   return (
-    <nav>
+    <nav className={isScrolled ? 'window-scroll' : ''}>
       <div className="container nav__container">
         <div className="logo">
           <svg

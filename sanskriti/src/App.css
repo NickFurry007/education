@@ -231,6 +231,8 @@ header {
 }
 
 .category__icon {
+  display: inline-flex;
+  align-items: center;
   background: var(--color-primary);
   padding: 0.7rem;
   border-radius: 0.9rem;

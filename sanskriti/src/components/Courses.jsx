@@ -1,4 +1,9 @@
 import React from "react";
+import * as Unicons from "@iconscout/react-unicons";
+import img1 from "../images/course1.jpg"
+import img2 from "../images/course2.jpg"
+import img3 from "../images/course3.jpg"
+
 
 const Courses = () => {
   return (
@@ -7,7 +12,7 @@ const Courses = () => {
       <div className="container courses__container">
         <article className="course">
           <div className="course__image">
-            {/* <img src="./images/course1.jpg"> */}
+            <img src={img1}/>
           </div>
           <div className="course__info">
             <h4>Responsive Social Media Website UI Design</h4>
@@ -23,7 +28,7 @@ const Courses = () => {
 
         <article className="course">
           <div className="course__image">
-            {/* <img src="./images/course2.jpg"> */}
+            <img src={img2}/>
           </div>
           <div className="course__info">
             <h4>Responsive SmartHome Website Design</h4>
@@ -39,7 +44,7 @@ const Courses = () => {
 
         <article className="course">
           <div className="course__image">
-            {/* <img src="./images/course3.jpg"> */}
+            <img src={img3}/>
           </div>
           <div className="course__info">
             <h4>Responsive Admin Dashboard UI Design</h4>

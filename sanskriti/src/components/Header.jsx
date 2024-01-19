@@ -1,4 +1,5 @@
 import React from "react";
+import img1 from "../images/header.svg";
 
 const Header = () => {
   return (
@@ -17,7 +18,7 @@ const Header = () => {
 
         <div className="header__right">
           <div className="header__right-image">
-            {/* <img src="./images/header.svg"> */}
+             <img src= {img1} /> 
           </div>
         </div>
       </div>
