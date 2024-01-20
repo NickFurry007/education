@@ -35,6 +35,26 @@ const Faqs = () => {
       answer:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit laudantium quis qui similique quidem at voluptatem ex. Est dolorum minima dolor aut ut, accusantium vitae architecto aliquid nostrum numquam quibusdam.",
     },
+    {
+      question: "How do I know the right courses for me?",
+      answer:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit laudantium quis qui similique quidem at voluptatem ex. Est dolorum minima dolor aut ut, accusantium vitae architecto aliquid nostrum numquam quibusdam.",
+    },
+    {
+      question: "How do I know the right courses for me?",
+      answer:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit laudantium quis qui similique quidem at voluptatem ex. Est dolorum minima dolor aut ut, accusantium vitae architecto aliquid nostrum numquam quibusdam.",
+    },
+    {
+      question: "How do I know the right courses for me?",
+      answer:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit laudantium quis qui similique quidem at voluptatem ex. Est dolorum minima dolor aut ut, accusantium vitae architecto aliquid nostrum numquam quibusdam.",
+    },
+    {
+      question: "How do I know the right courses for me?",
+      answer:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit laudantium quis qui similique quidem at voluptatem ex. Est dolorum minima dolor aut ut, accusantium vitae architecto aliquid nostrum numquam quibusdam.",
+    }
     // Add more FAQ items as needed
   ];
 
